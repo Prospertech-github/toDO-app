@@ -17,7 +17,7 @@ const addTodo = (todo) => {
     todo
   });
   
- 
+  taskContainer.innerHTML = '';
   showTodos();
   formInput.value = '';
 }
