@@ -16,7 +16,7 @@ const addTodo = (todo) => {
     isDone: false,
     todo
   });
-  taskContainer.innerHTML = '';
+  
  
   showTodos();
   formInput.value = '';
